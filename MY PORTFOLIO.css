@@ -1,0 +1,86 @@
+.box{
+    position: relative;
+    margin:20px; 
+}
+.container{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: purple;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    font-size: 8rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hsection{
+    width: 30%;
+    position: relative;
+}
+.hsection a{
+    font-size: 20px;
+    padding: 20px;
+}
+.hsection a:hover{
+    color: plum; 
+}
+.home{
+    font-size: 40px;
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    color: purple;
+}
+
+.main{
+    display: flexbox;
+    height: 800px;
+    text-align: center;
+    background-color:mistyrose ;
+    margin: 20px;
+}
+pre{
+    position: relative;
+    bottom: 200px;
+    font-size: 50px;
+    left: 200px;
+}
+p1{
+    position: relative;
+    bottom: 30px;
+}
+.about{
+    display: flexbox;
+    text-align: center;
+    height: 800px ;
+    background-color: mistyrose;
+    margin: 20px;
+}
+.final{
+    display: flexbox;
+    text-align: center;
+    height: 10px ;
+    background-color:white;
+    margin: 20px;
+}
+.final a{
+    font-size: 20px;
+    padding: 140px;
+    position: relative;
+    top: 150px;
+}
+.final a:hover{
+    font-size: 20px;
+    padding: 20px;
+    color: red;
+}
+.mail{
+    height: 10px;
+    color: azure;
+}
